@@ -1,0 +1,102 @@
+/*set background for 3 html file*/
+body {
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+/*resize avatar*/
+#image {
+	height: 25%;
+	width: 25%;
+	padding: 0px 0px 5px 0px;
+}
+
+/*create a box cover avatar and infomation each member*/
+#member-info {
+	width: 450px;
+	background: rgba(0,0,0,0.4);
+	padding: 20px 30px 50px 30px;
+	margin: auto;
+	margin-top: 3%;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+}
+
+/*create a box cover team image and infomation*/
+#group-info {
+	width: 450px;
+	background: rgba(0,0,0,0.4);
+	padding: 30px 30px 30px 30px;
+	margin: auto;
+	margin-top: 3%;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	list-style-type: none;
+}
+
+/*remove list bullets*/
+ul.list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+/**/
+#member-info li {
+	padding: 3px;
+	font-size: 18px;
+}
+
+#group-info li {
+	padding: 5px;
+}
+
+.group-name {
+	font-size: 24px;
+}
+
+#group-image {
+	text-align: center;
+}
+
+#gr-image {
+	height: 23%;
+	width: 23%;
+}
+
+#img-caption {
+	color: white;
+	font-size: 17px;;
+}
+
+/*about us, about me*/
+h1 {
+	text-align: center;
+	position: relative;
+	font-size: 50px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	letter-spacing: 2px;
+}
+
+/*create BACK button to return home page*/
+a {
+	float: right;
+	text-decoration: none;
+	color: #fff;
+	margin: 20px 50px 0px 0px;
+	padding: 7px 24px;
+	border: 3px solid #fff;
+	font-family: Century Gothic;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
